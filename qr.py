@@ -1,3 +1,5 @@
+# QR Code Generator using Python
+
 import qrcode 
 url =input("Enter URL: ")
 img = qrcode.make(url)
