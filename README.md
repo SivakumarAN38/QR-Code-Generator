@@ -1,30 +1,26 @@
-\# QR Code Generator (Python)
+# QR Code Generator (Python)
 
+This project generates a QR code using Python with a simple graphical user interface (GUI).
 
+## Description
+A beginner-friendly Python application that creates a QR code from text or a URL and displays it directly on the screen using Tkinter.
 
-This project generates a QR code using Python.
+## Features
+- User-friendly GUI
+- Generates QR code from text or URL
+- Displays QR code in the application window
+- Saves QR code as an image file
 
+## Requirements
+- Python 3.x
+- qrcode library
+- Pillow library
 
-
-\## Description
-
-A simple Python program that creates a QR code from text or a URL.
-
-
-
-\## Requirements
-
-\- Python 3.x
-
-\- qrcode library
-
-
-
-\## Installation
+## Installation
+Install the required libraries using pip:
 
 ```bash
-
-pip install qrcode\[pil]
+pip install qrcode pillow
 
 
 ## How to Run
